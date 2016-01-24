@@ -142,7 +142,7 @@ test
   bottom: 0;
   left: 0;
   right: 0;
-  height: 660px;
+  height: 60px;
   margin-left: 3px;
   margin-right: 3px;
   padding-top: 600px;
@@ -167,6 +167,10 @@ test
 }
 
 .portfolioimages img {
-  float: inherit;
+  background-color: black;
+  flex-direction: row;
+  flex: 1;
+  width: auto;
   height: 300px;
+  overflow: hidden;
 }
