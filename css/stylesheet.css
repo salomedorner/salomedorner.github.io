@@ -1,11 +1,12 @@
 body {
-  font-family: 'Josefin Slab', cursive;
+  font-family: 'Josefin Slab', serif;
   width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
 
 .nav {
+  padding-top: 10px;
   list-style: none;
   font-family: 'Josefin Slab', serif;
   text-align: center;
@@ -76,15 +77,9 @@ h1 {
 .clear {
   float: none;
 }
-.zitatstefansagmeister {
-  width: 450px;
-  float: right;
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-  text-align: left;
-}
 
 .contacttext {
+  padding-top: 15px;
   text-align: left;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
@@ -128,4 +123,50 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
     background:darkgrey;
+}
+
+/*
+test
+*/
+
+.imgWrap {
+  position: relative;
+  /*height: 200px;
+  width: 257px;*/
+}
+
+.imgDescription {
+  position: absolute;
+
+  top: -16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 660px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-top: 600px;
+
+  background: rgba(230, 230, 230, 0.5);
+  color: black;
+
+
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portfolioimages img {
+  float: inherit;
+  height: 300px;
 }
