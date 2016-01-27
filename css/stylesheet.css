@@ -62,6 +62,7 @@ li {
 .profileimage {
   width: 530px;
   float: left;
+  margin-bottom: 50px;
 }
 
 .profiletext {
@@ -180,4 +181,17 @@ input[type=submit]:active {
 
 .images_portfolio img {
   height: 300px;
+}
+
+/* Tablet 768 px*/
+@media screen and (max-width: 768px) {
+.imgWrap {
+  width: 35%
+}
+
+/* Smartphone 630 px*/
+@media screen and (max-width: 630px) {
+.imgWrap {
+  float: none;
+  width: 75%
 }
