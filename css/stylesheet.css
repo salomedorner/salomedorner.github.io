@@ -185,13 +185,13 @@ input[type=submit]:active {
 
 /* Tablet 768 px*/
 @media screen and (max-width: 768px) {
-.imgWrap {
-  width: 35%
+.imgWrap img {
+  width: 75%
 }
 
 /* Smartphone 630 px*/
 @media screen and (max-width: 630px) {
-.imgWrap {
+.imgWrap img {
   float: none;
-  width: 75%
+  width: 35%
 }
