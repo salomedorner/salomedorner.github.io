@@ -6,8 +6,6 @@ body {
 }
 
 .nav {
-  padding-top: 10px;
-  list-style: none;
   font-family: 'Josefin Slab', serif;
   text-align: center;
   font-size: 22px;
@@ -15,7 +13,6 @@ body {
   margin-bottom: 60px;
   border-bottom: 1px solid lightgrey;
 }
-
 
 .nav li {
   display: inline;
@@ -32,14 +29,15 @@ body {
 }
 
 li {
-  margin-left: 70px;
-  margin-right: 70px;
+  padding-left: 69px;
+  padding-right: 69px;
 }
 
 .header img {
   margin-top: 30px;
   text-align: center;
-  height: 120px;
+  height: 150px;
+  width: auto;
 }
 
 .images {
@@ -60,9 +58,8 @@ li {
 }
 
 .profileimage {
-  width: 530px;
+  width: 510px;
   float: left;
-  margin-bottom: 50px;
 }
 
 .profiletext {
@@ -79,7 +76,7 @@ li {
 
 .contacttext {
   padding-top: 15px;
-  text-align: left;
+  text-align: center;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
   color: black;
@@ -88,13 +85,13 @@ li {
 .leavemeamessage {
   list-style: none;
   font-family: 'Josefin Slab', serif;
-  text-align: left;
+  text-align: center;
   color: black;
 }
 
 .mail {
   font-family: 'Josefin Slab', cursive;
-  text-align: left;
+  text-align: center;
   color: black;
   padding-top: 10px;
 }
@@ -116,6 +113,7 @@ input[type=submit] {
     border-radius: 5px;
 }
 
+
 input[type=submit]:hover {
     background:#B4B0B0;
 }
@@ -124,8 +122,16 @@ input[type=submit]:active {
     background:darkgrey;
 }
 
+.inputfield {
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+}
+
 
 .imgWrap {
+  width: 100%;
+  height: auto;
   position: relative;
   /*height: 200px;
   width: 257px;*/
@@ -154,44 +160,69 @@ input[type=submit]:active {
   */
 }
 
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+}
+
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
 }
 
-/*
 .images_portfolio {
   display: inline-block;
-  line-height: 200px;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   text-align: center;
   width: 200px;
 }
 
 .images_portfolio img {
-  margin-top: -50px;
-  height: 300px;
-}
-*/
-
-.images_portfolio {
-  display: inline-block;
-}
-
-.images_portfolio img {
   height: 300px;
 }
 
-/* Tablet 768 px*/
-@media screen and (max-width: 768px) {
-.imgWrap img {
-  width: 60%
+_____responsive
+
+
+img {
+  width: 100%;
+  height: auto;
 }
 
-/* Smartphone 630 px*/
-@media screen and (max-width: 630px) {
-.imgWrap img {
-  float: none;
-  width: 20%
-}
+
+@media screen and (min-width: 320px) {
+  .nav {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav li {
+    display: block;
+  }
+
+
+
+@media screen and (min-width: 760px) {
+
+  .nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
+@media screen and (min-width: 1024px) {
+
+  .wrapper {
+    max-width: 1140px;
+  }
