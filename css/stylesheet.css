@@ -60,6 +60,7 @@ li {
 .profileimage {
   width: 510px;
   float: left;
+  margin-bottom: 50px;
 }
 
 .profiletext {
@@ -68,11 +69,13 @@ li {
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
   text-align: left;
+  margin-top: 250px;
 }
 
 .clear {
   float: none;
 }
+
 
 .contacttext {
   padding-top: 15px;
@@ -145,9 +148,9 @@ input[type=submit]:active {
   left: 0;
   right: 0;
   height: 60px;
-  margin-left: 3px;
-  margin-right: 3px;
-  padding-top: 600px;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-top: 605px;
 
   background: rgba(230, 230, 230, 0.5);
   color: black;
@@ -183,23 +186,15 @@ input[type=submit]:active {
   height: 300px;
 }
 
-_____responsive
-
-
 img {
   width: 100%;
   height: auto;
 }
 
 
-@media screen and (min-width: 320px) {
-  .nav {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .wrapper {
+@media screen and (max-width: 320px) {
+
+  body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -209,9 +204,9 @@ img {
     display: block;
   }
 
+}
 
-
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 768px) {
 
   .nav li {
     display: inline-block;
@@ -219,10 +214,12 @@ img {
     margin-right: 10px;
   }
 
+}
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   .wrapper {
     max-width: 1140px;
   }
+
+}
