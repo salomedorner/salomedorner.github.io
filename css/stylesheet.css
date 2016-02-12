@@ -57,17 +57,23 @@ li {
   top: -50px;
 }
 
+.row {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
 .profileimage {
   width: 300px;
+  display: inline-block;
   float: left;
   margin-bottom: 50px;
-  margin: 100px;
 }
 
 .profiletext {
   width: 300px;
-  margin: 100px;
   float: right;
+  display: inline-block;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
   text-align: left;
