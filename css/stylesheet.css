@@ -58,13 +58,15 @@ li {
 }
 
 .profileimage {
-  width: 490px;
+  width: 300px;
   float: left;
   margin-bottom: 50px;
+  margin: 100px;
 }
 
 .profiletext {
-  width: 490px;
+  width: 300px;
+  margin: 100px;
   float: right;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
@@ -140,22 +142,18 @@ input[type=submit]:active {
 
 .images_portfolio {
   display: inline-block;
-  height: auto;
-  padding-left: auto;
-  padding-right: auto;
-  width: 280px;
+  text-align: center;
 }
 
 .images_portfolio img {
-  height: 400px;
+  height: 710px;
+  margin: 2px;
 }
 
 .imgWrap {
   width: 100%;
   height: auto;
   position: relative;
-  /*height: 200px;
-  width: 257px;*/
 }
 
 .imgDescription {
@@ -199,21 +197,23 @@ img {
 
   .nav {
     display: block;
-    float: left;
+    float: none;
   }
   .nav li {
     display: block;
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 5px;
   }
 
   .header {
     text-align: center;
+    height: 50px;
+    width: 30px;
   }
 
   .header img {
-    margin-top: 30px;
-    height: 20px;
+    margin-top: 20px;
+    height: 50px;
     width: auto;
   }
 
@@ -223,11 +223,13 @@ img {
   }
 
   .profileimage {
+    display: block;
     width: 310px;
     float: none;
   }
 
   .profiletext {
+    display: block;
     width: 300px;
     float: none;
     font-family: 'Josefin Slab', serif;
@@ -244,12 +246,13 @@ img {
   }
 
   .images_portfolio img {
-    height: 450px;
-    width: 310px;
+    text-align: center;
+    height: 200px;
+    width: 150px;
   }
 
   .imgWrap {
-    width: 310px;
+    width: 200px;
     height: auto;
     position: relative;
   }
