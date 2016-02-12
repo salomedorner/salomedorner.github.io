@@ -29,12 +29,12 @@ body {
 }
 
 li {
-  padding-left: 69px;
-  padding-right: 69px;
+  padding-left: 83px;
+  padding-right: 83px;
 }
 
 .header img {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   height: 150px;
   width: auto;
@@ -58,23 +58,26 @@ li {
 }
 
 .profileimage {
-  width: 510px;
+  width: 490px;
   float: left;
   margin-bottom: 50px;
 }
 
 .profiletext {
-  width: 450px;
+  width: 490px;
   float: right;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
   text-align: left;
+  border-bottom: 1px solid lightgrey;
 }
 
+.profiletext:hover {
+  color: #DB7093;
+}
 .clear {
   float: none;
 }
-
 
 .contacttext {
   padding-top: 15px;
@@ -138,13 +141,13 @@ input[type=submit]:active {
 .images_portfolio {
   display: inline-block;
   height: auto;
-  overflow: hidden;
-  text-align: center;
-  width: 310px;
+  padding-left: auto;
+  padding-right: auto;
+  width: 280px;
 }
 
 .images_portfolio img {
-  height: 300px;
+  height: 400px;
 }
 
 .imgWrap {
@@ -210,7 +213,7 @@ img {
 
   .header img {
     margin-top: 30px;
-    height: 45px;
+    height: 20px;
     width: auto;
   }
 
