@@ -57,32 +57,25 @@ li {
   top: -50px;
 }
 
-.row {
-  margin-top: 30px;
-  width: 100%;
-  text-align: center;
-}
-
 .profileimage {
-  width: 300px;
-  display: inline-block;
+  width: 700px;
   float: left;
-  margin-bottom: 50px;
+  margin-left: 30px;
 }
 
 .profiletext {
-  width: 300px;
+  width: 700px;
   float: right;
-  display: inline-block;
   font-family: 'Josefin Slab', serif;
-  font-size: 20px;
+  font-size: 40px;
   text-align: left;
-  border-bottom: 1px solid lightgrey;
 }
+
 
 .profiletext:hover {
   color: #DB7093;
 }
+
 .clear {
   float: none;
 }
