@@ -70,19 +70,20 @@ li {
 }
 
 .profileimage {
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: auto;
   float: left;
-  margin-left: 120px;
+
 }
 
 .profiletext {
   width: 350px;
   float: right;
   font-family: 'Josefin Slab', serif;
-  font-size: 5px;
+  font-size: 20px;
   text-align: left;
-  margin-right: 120px;
+  margin-right: 200px;
+  margin-top: 80px;
 }
 
 .profiletext:hover {
